@@ -1,0 +1,40 @@
+﻿table, th, td{
+	border: 1px solid black;
+}
+
+tbody tr td:first-child {
+	font-style:italic;	
+	font-weight:normal;	
+}
+
+tbody td:nth-child(2){
+	color: red;
+}
+
+tbody td:nth-child(4){
+	color: blue;
+}
+
+tbody tr:nth-child(1),tr:nth-child(3),tr:nth-child(5){
+	background-color: LightGreen;
+}
+
+tbody tr:nth-child(2),tr:nth-child(4){
+	background-color: LightBlue;
+}
+
+dt:hover + dd{
+	background-color: purple;
+}
+
+div.outter-content{
+	width:75%;
+	padding: 20px;
+	background: Pink;
+}
+
+div.inner-content{
+	width: .75(div.outter-content);
+	text-align: center;
+	background: LightBlue;
+}

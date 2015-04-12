@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Assignment 2.html</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+<!--Table-->
+
+		<table>
+			<caption>Popular Jam Bands</caption>
+			<thead>
+				<th></th>
+				<th>Phish</th>
+				<th>Grateful Dead</th>
+				<th>SCI</th>
+				<th>Umphreys</th>
+				<th>Widespread Panic</th>
+			</thead>
+			<tfoot>
+				<tr> <td colspan = 2>Footer 1</td><td colspan=4>Footer 2</td></tr>
+			</tfoot> 
+			<tbody>
+				<tr> <td>Guitar</td> <td>Trey</td> <td>Jerry</td> <td>Bill</td> <td>Metal</td> <td>Slide</td>
+				<tr> <td>Bass</td> <td>Mike</td> <td>Phil</td> <td>John</td> <td>Pink Floyd</td> <td>Trucker</td>
+				<tr> <td>Keyboard</td> <td>Paige</td> <td>Troy</td> <td>Kyle</td> <td>Baldy</td> <td>N/A</td>
+				<tr> <td>Lights</td> <td>Trippy</td> <td>Billy</td> <td>Bobby</td> <td>Hairy</td> <td>N/A</td>
+				<tr> <td>Crowd</td> <td>Hippies</td> <td>Old Men</td> <td>Girls</td> <td>Losers</td> <td>Cowboys</td>
+			</tbody>
+		</table>
+
+<!--DL List-->
+
+		<dl>
+		<dt>Biggest Fear</dt>
+			<dd>Heights</dd>
+		<dt>Number of Siblings</dt>
+			<dd>Less Than 2</dd>
+		<dt>Favorite Team</dt>
+			<dd>Seahawks</dd>
+		</dl>
+
+<!--Form 1 - Post-->
+		
+		<form method="post" action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php">
+			<fieldset>
+			<legend>Post Form</legend>
+			<div>
+				<label>Text: <input name="text_input"></label>
+			</div>
+			<div>
+				<label>Number: <input type="number" name="numerical_input"></label>
+			</div>
+			<div>
+				<label>Password: <input type="password" name="password_input"></label>
+			</div>
+			<div>
+				<p><label><input type = radio name = "candy" value="Snickers">Snickers</label>
+				<p><label><input type = radio name = "candy" value="Skittles">Skittles</label>
+				<p><label><input type = radio name = "candy" value="Mentos">Mentos</label>
+			</div>
+			<input type = "submit" value="Submit">
+			</fieldset>
+		</form>
+
+<!--Form 2 - Get-->
+		
+		<form method="get" action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php">
+			<fieldset>
+			<legend>Get Form</legend>
+			<div>
+				<label>Text: <input name="text_input"></label>
+			</div>
+			<div>
+				<label>Number: <input type="number" name="numerical_input"></label>
+			</div>
+			<div>
+				<label>Password: <input type="password" name="password_input"></label>
+			</div>
+			<div>
+				<p><label><input type = radio name = "candy" value="Snickers">Snick		ers</label>
+				<p><label><input type = radio name = "candy" value="Skittles">Skittles</label>
+				<p><label><input type = radio name = "candy" value="Mentos">Mentos</label>
+			</div>
+			<input type = "submit" value="Submit">
+			</fieldset>
+		</form>
+
+<!--Outter/inner Divs-->
+
+		<div class="outter-content">
+			<div class = "inner-content">Inner Content</div>			
+		</div>
+
+
+<!--Pic & word wrapped text-->
+	
+		<div style="float:left">
+		<img src="http://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt = "GUITAR IMAGE" width="100" height="125">
+		</div>
+		<div>
+			A guitar is a popular musical instrument classified as a string instrument with anywhere from 4 to 18 strings, usually having 6. 
+			The sound is projected either acoustically or through amplification.  It is typically played by strumming or plucking the strings 
+			with the right hand while fretting the strings with the left hand.  
+		</div>
+		<div>
+			<p>Trey Anastasio is a founding member of the rock band Phish, serving as lead guitarist and vocalist since their inception.  
+			Phish are noted for their musical improvisation, extended jams, exploration of a broad range of genre, and original live performances.  
+			Formed at the U of Vermont in 1983, the band includes bassist and vocalist Mike Gordon, Percussionist Jon Fishman, and Keyboardist Paige McConnell. 
+		</div>
+	</body>	
+</html>
